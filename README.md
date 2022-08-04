@@ -6,8 +6,8 @@ This is a template repository to help developers quickly build Alpine JS plugins
 
 ## How to Use
 
-1. Clone the repository
-2. Run `npm install`
+1. Clone the repository with the "Use this template" button on GitHub
+2. Run `npm install` to install ES Build
 3. Build your plugin
 
 ### Compiling
