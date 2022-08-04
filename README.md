@@ -80,7 +80,7 @@ Examples of how the plugin works.
 
 ## Stats
 
-![](https://img.shields.io/bundlephobia/min/NAME)
-![](https://img.shields.io/npm/v/NAME)
-![](https://img.shields.io/npm/dt/NAME)
-![](https://img.shields.io/github/license/markmead/NAME)
+![](https://img.shields.io/bundlephobia/min/alpinejs-NAME)
+![](https://img.shields.io/npm/v/alpinejs-NAME)
+![](https://img.shields.io/npm/dt/alpinejs-NAME)
+![](https://img.shields.io/github/license/markmead/alpinejs-NAME)
