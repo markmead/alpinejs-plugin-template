@@ -16,24 +16,22 @@ To compile the code you run `npm run build` which will create two files in the `
 
 ### Testing
 
-In this template you will find a `/testing/index.html` file that you can use for testing how the Alpine JS plugin works.
+In this template you will find a `index.html` file that you can use for testing how the Alpine JS plugin works.
 
 I recommend using [vercel/serve](https://www.npmjs.com/package/serve) to serve this file.
 
 ## Things to Change
 
-- Find and replace "NAME" with the plugin name
+- Find and replace "PLUGIN" with the name of your plugin
 - Find and replace "FILE" with the name of your compiled file
-- Find and replace "PLUGIN" with the name of your exported function
-- Uncomment "/testing" in the `.gitignore` file
+- Uncomment "index.html" in the `.gitignore` file
 
 🚨 Make sure find and replace is case sensitive
 
 If you were creating a plugin called "Alpine JS CSV" you could do the following:
 
-- "NAME" to "CSV"
+- "PLUGIN" to "alpinejs-csv"
 - "FILE" to "csv"
-- "PLUGIN" to "CSV"
 
 ### License
 
@@ -43,7 +41,7 @@ The choice of adding a license and what license is best for your project is up t
 
 **--- DELETE END ---**
 
-# Alpine JS NAME
+# Alpine JS Plugin
 
 Description of the plugin.
 
@@ -52,7 +50,7 @@ Description of the plugin.
 ### With a CDN
 
 ```html
-<script defer src="https://unpkg.com/NAME@latest/dist/FILE.min.js"></script>
+<script defer src="https://unpkg.com/PLUGIN@latest/dist/FILE.min.js"></script>
 
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 ```
@@ -60,14 +58,14 @@ Description of the plugin.
 ### With a Package Manager
 
 ```shell
-yarn add -D NAME
+yarn add -D PLUGIN
 
-npm install -D NAME
+npm install -D PLUGIN
 ```
 
 ```js
 import Alpine from 'alpinejs'
-import component from 'NAME'
+import component from 'PLUGIN'
 
 Alpine.plugin(component)
 
@@ -80,7 +78,7 @@ Examples of how the plugin works.
 
 ## Stats
 
-![](https://img.shields.io/bundlephobia/min/alpinejs-NAME)
-![](https://img.shields.io/npm/v/alpinejs-NAME)
-![](https://img.shields.io/npm/dt/alpinejs-NAME)
-![](https://img.shields.io/github/license/markmead/alpinejs-NAME)
+![](https://img.shields.io/bundlephobia/min/PLUGIN)
+![](https://img.shields.io/npm/v/PLUGIN)
+![](https://img.shields.io/npm/dt/PLUGIN)
+![](https://img.shields.io/github/license/markmead/PLUGIN)
