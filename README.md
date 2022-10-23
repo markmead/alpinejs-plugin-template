@@ -2,7 +2,8 @@
 
 # Alpine JS Plugin Template
 
-This is a template repository to help developers quickly build Alpine JS plugins.
+This is a template repository to help developers quickly build Alpine JS
+plugins.
 
 ## How to Use
 
@@ -12,13 +13,16 @@ This is a template repository to help developers quickly build Alpine JS plugins
 
 ### Compiling
 
-To compile the code you run `npm run build` which will create two files in the `/dist` directory.
+To compile the code you run `npm run build` which will create two files in the
+`/dist` directory.
 
 ### Testing
 
-In this template you will find a `index.html` file that you can use for testing how the Alpine JS plugin works.
+In this template you will find a `index.html` file that you can use for testing
+how the Alpine JS plugin works.
 
-I recommend using [vercel/serve](https://www.npmjs.com/package/serve) to serve this file.
+I recommend using [vercel/serve](https://www.npmjs.com/package/serve) to serve
+this file.
 
 ## Things to Change
 
@@ -35,7 +39,8 @@ If you were creating a plugin called "Alpine JS CSV" you could do the following:
 
 ### License
 
-The choice of adding a license and what license is best for your project is up to you.
+The choice of adding a license and what license is best for your project is up
+to you.
 
 [Adding a License on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)
 
@@ -65,9 +70,9 @@ npm install -D PLUGIN
 
 ```js
 import Alpine from 'alpinejs'
-import component from 'PLUGIN'
+import FILE from 'PLUGIN'
 
-Alpine.plugin(component)
+Alpine.plugin(FILE)
 
 Alpine.start()
 ```
