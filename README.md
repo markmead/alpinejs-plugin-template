@@ -28,6 +28,7 @@ this file.
 
 - Find and replace "PLUGIN" with the name of your plugin
 - Find and replace "FILE" with the name of your compiled file
+- Find and replace "DESCRIPTION" with a description of your plugin
 - Uncomment "index.html" in the `.gitignore` file
 
 🚨 Make sure find and replace is case sensitive
@@ -36,6 +37,9 @@ If you were creating a plugin called "Alpine JS CSV" you could do the following:
 
 - "PLUGIN" to "alpinejs-csv"
 - "FILE" to "csv"
+- "DESCRIPTION" to "Transform data into a CSV with Alpine JS 📈"
+
+---
 
 ### License
 
@@ -46,9 +50,9 @@ to you.
 
 **--- DELETE END ---**
 
-# Alpine JS Plugin
+# PLUGIN
 
-Description of the plugin.
+DESCRIPTION
 
 ## Install
 
